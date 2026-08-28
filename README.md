@@ -1,1 +1,1 @@
-![Gameplay](Assets/Videos/GameplayGIF.gif)
+![Gameplay](Assets/Videos/GameplayGif.gif)
