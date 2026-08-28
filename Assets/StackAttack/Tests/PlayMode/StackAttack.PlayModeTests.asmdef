@@ -1,0 +1,21 @@
+{
+  "name": "StackAttack.PlayModeTests",
+  "rootNamespace": "StackAttack.Tests",
+  "references": [
+    "StackAttack.Runtime",
+    "UnityEngine.UI",
+    "Unity.TextMeshPro"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

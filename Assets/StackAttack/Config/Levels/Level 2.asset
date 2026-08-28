@@ -1,0 +1,605 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07efeef68d610994fa33b141352b4f6a, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  levelNumber: 2
+  gridSize: {x: 6, y: 30}
+  startOffset: 10
+  completionOffset: 0
+  horizontalViewportMargin: 0.02
+  cellSpacing: 0.02
+  groups:
+  - id: 9cd2bc11f2b54f6488eb767b3772206c
+    displayName: Cyan Sweep Right
+    editorColor: {r: 0.171, g: 0.983, b: 0.954, a: 1}
+    behaviours:
+    - rid: 6899325042973999232
+  - id: 625cd455cb744b23b7695adbb722f34d
+    displayName: Pink Sweep Left
+    editorColor: {r: 1, g: 0.227, b: 0.561, a: 1}
+    behaviours:
+    - rid: 6899325042973999233
+  - id: 3703aa43f10346a6ade769f8e5aedf5d
+    displayName: Pink X Orbit
+    editorColor: {r: 1, g: 0.227, b: 0.561, a: 1}
+    behaviours:
+    - rid: 6899325042973999242
+  - id: c9ad73075df44980818b8f0ed6a4df40
+    displayName: Reverse Corner Orbit
+    editorColor: {r: 0.17, g: 0.578, b: 1, a: 1}
+    behaviours:
+    - rid: 6899325042973999243
+  cells:
+  - obstacleAmount: 3
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 3
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 3
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 3
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 5
+    color: {r: 0.594, g: 0.28, b: 0.985, a: 1}
+    groupId: 
+  - obstacleAmount: 5
+    color: {r: 0.594, g: 0.28, b: 0.985, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 5
+    color: {r: 0.594, g: 0.28, b: 0.985, a: 1}
+    groupId: 
+  - obstacleAmount: 5
+    color: {r: 0.594, g: 0.28, b: 0.985, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 6
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 6
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 6
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 6
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 7
+    color: {r: 0.171, g: 0.983, b: 0.954, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 7
+    color: {r: 0.171, g: 0.983, b: 0.954, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 7
+    color: {r: 0.171, g: 0.983, b: 0.954, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 9
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 3703aa43f10346a6ade769f8e5aedf5d
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 9
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 3703aa43f10346a6ade769f8e5aedf5d
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 9
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 3703aa43f10346a6ade769f8e5aedf5d
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 9
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 3703aa43f10346a6ade769f8e5aedf5d
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 9
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 3703aa43f10346a6ade769f8e5aedf5d
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 9
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 3703aa43f10346a6ade769f8e5aedf5d
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 9
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 3703aa43f10346a6ade769f8e5aedf5d
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 9
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 3703aa43f10346a6ade769f8e5aedf5d
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 9
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 3703aa43f10346a6ade769f8e5aedf5d
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 12
+    color: {r: 0.594, g: 0.28, b: 0.985, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 12
+    color: {r: 0.594, g: 0.28, b: 0.985, a: 1}
+    groupId: 
+  - obstacleAmount: 12
+    color: {r: 0.594, g: 0.28, b: 0.985, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 12
+    color: {r: 0.594, g: 0.28, b: 0.985, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 14
+    color: {r: 0.171, g: 0.983, b: 0.954, a: 1}
+    groupId: 
+  - obstacleAmount: 12
+    color: {r: 0.171, g: 0.983, b: 0.954, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 14
+    color: {r: 0.171, g: 0.983, b: 0.954, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 14
+    color: {r: 0.171, g: 0.983, b: 0.954, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 14
+    color: {r: 0.171, g: 0.983, b: 0.954, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 14
+    color: {r: 0.171, g: 0.983, b: 0.954, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 12
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 14
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 12
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 17
+    color: {r: 0.171, g: 0.983, b: 0.954, a: 1}
+    groupId: 9cd2bc11f2b54f6488eb767b3772206c
+  - obstacleAmount: 17
+    color: {r: 0.171, g: 0.983, b: 0.954, a: 1}
+    groupId: 9cd2bc11f2b54f6488eb767b3772206c
+  - obstacleAmount: 17
+    color: {r: 0.171, g: 0.983, b: 0.954, a: 1}
+    groupId: 9cd2bc11f2b54f6488eb767b3772206c
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 17
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 625cd455cb744b23b7695adbb722f34d
+  - obstacleAmount: 17
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 625cd455cb744b23b7695adbb722f34d
+  - obstacleAmount: 17
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 625cd455cb744b23b7695adbb722f34d
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 20
+    color: {r: 0.594, g: 0.28, b: 0.985, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 18
+    color: {r: 0.594, g: 0.28, b: 0.985, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 20
+    color: {r: 0.594, g: 0.28, b: 0.985, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 20
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 20
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 20
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 15
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: c9ad73075df44980818b8f0ed6a4df40
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 15
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: c9ad73075df44980818b8f0ed6a4df40
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 22
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 
+  - obstacleAmount: 15
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: c9ad73075df44980818b8f0ed6a4df40
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 15
+    color: {r: 0.17, g: 0.578, b: 1, a: 1}
+    groupId: c9ad73075df44980818b8f0ed6a4df40
+  - obstacleAmount: 22
+    color: {r: 1, g: 0.227, b: 0.561, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  - obstacleAmount: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    groupId: 
+  references:
+    version: 2
+    RefIds:
+    - rid: 6899325042973999232
+      type: {class: ObstacleWaveGroupBehaviourConfig, ns: StackAttack.Gameplay, asm: StackAttack.Runtime}
+      data:
+        direction: 0
+        speedInCellsPerSecond: 0.75
+        maximumCellDistance: 1.5
+    - rid: 6899325042973999233
+      type: {class: ObstacleWaveGroupBehaviourConfig, ns: StackAttack.Gameplay, asm: StackAttack.Runtime}
+      data:
+        direction: 1
+        speedInCellsPerSecond: 0.75
+        maximumCellDistance: 1.5
+    - rid: 6899325042973999242
+      type: {class: ObstacleOrbitGroupBehaviourConfig, ns: StackAttack.Gameplay, asm: StackAttack.Runtime}
+      data:
+        degreesPerSecond: 22
+    - rid: 6899325042973999243
+      type: {class: ObstacleOrbitGroupBehaviourConfig, ns: StackAttack.Gameplay, asm: StackAttack.Runtime}
+      data:
+        degreesPerSecond: -20

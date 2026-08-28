@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a071437c35cea084eb577bfc64933664, type: 3}
+  m_Name: Upgrade Settings
+  m_EditorClassIdentifier: 
+  startingAmmo: {fileID: 11400000, guid: 7c6d3ebedc9ff2f4f9e372c203921d79, type: 2}
+  initialRequiredClearedObstacleCount: 5
+  requirementMultiplier: 3
+  offerCount: 3
+  upgrades:
+  - target: 0
+    ammo: {fileID: 11400000, guid: 7c6d3ebedc9ff2f4f9e372c203921d79, type: 2}
+    stat: 0
+    amount: 1
+    maximumValue: 3
+  - target: 0
+    ammo: {fileID: 11400000, guid: 7c6d3ebedc9ff2f4f9e372c203921d79, type: 2}
+    stat: 1
+    amount: 1
+    maximumValue: 3
+  - target: 0
+    ammo: {fileID: 11400000, guid: 7c6d3ebedc9ff2f4f9e372c203921d79, type: 2}
+    stat: 2
+    amount: 1
+    maximumValue: 2
+  - target: 0
+    ammo: {fileID: 11400000, guid: 7c6d3ebedc9ff2f4f9e372c203921d79, type: 2}
+    stat: 3
+    amount: 1
+    maximumValue: 3
+  - target: 1
+    ammo: {fileID: 0}
+    stat: 0
+    amount: 1
+    maximumValue: 8
