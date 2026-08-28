@@ -1,18 +1,18 @@
 using System.Collections.Generic;
 using StackAttack.Gameplay;
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace StackAttack.Game
 {
     [DisallowMultipleComponent]
     public sealed class ObstacleCountUIController : MonoBehaviour
     {
-        [SerializeField] private Text countVisualPrefab;
+        [SerializeField] private TMP_Text countVisualPrefab;
         [SerializeField] private RectTransform visualParent;
         [SerializeField] private Vector2 screenOffset;
 
-        private readonly Dictionary<ObstacleColumn, Text> _visuals = new();
+        private readonly Dictionary<ObstacleColumn, TMP_Text> _visuals = new();
         private Camera _worldCamera;
         private Camera _uiCamera;
 
@@ -51,7 +51,7 @@ namespace StackAttack.Game
             }
         }
 
-        public bool TryGetVisual(ObstacleColumn column, out Text visual)
+        public bool TryGetVisual(ObstacleColumn column, out TMP_Text visual)
         {
             return _visuals.TryGetValue(column, out visual);
         }
@@ -96,14 +96,14 @@ namespace StackAttack.Game
 
         private static void RefreshVisual(
             ObstacleColumn column,
-            Text visual,
+            TMP_Text visual,
             int remainingCount)
         {
             visual.text = remainingCount.ToString();
             visual.gameObject.SetActive(column != null && remainingCount > 0);
         }
 
-        private void UpdatePosition(ObstacleColumn column, Text visual)
+        private void UpdatePosition(ObstacleColumn column, TMP_Text visual)
         {
             if (column == null || visual == null ||
                 column.RemainingCount == 0)
